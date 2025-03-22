@@ -63,7 +63,7 @@ class AboutScreen extends StatelessWidget {
                   ),
                   SizedBox(height: 10),
                   Text(
-                    'Developed by Pratik Khemnar', // Add your name here
+                    'Developed by Aniket Danekar', // Add your name here
                     style: GoogleFonts.poppins(
                       fontSize: 16,
                       color: Colors.white70,

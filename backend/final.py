@@ -13,8 +13,8 @@ from fastapi.middleware.cors import CORSMiddleware  # Import CORS middleware
 from pydantic import BaseModel
 
 # Load the data
-data_fake = pd.read_csv(r"C:/Users/asus/Desktop/fackNewsDection/datasets/Fake.csv")
-data_true = pd.read_csv(r"C:/Users/asus/Desktop/fackNewsDection/datasets/True.csv")
+data_fake = pd.read_csv(r"C:\Users\hp\Downloads\fake_true_news-master\fake_true_news-master\assets\datasets/Fake.csv")
+data_true = pd.read_csv(r"C:\Users\hp\Downloads\fake_true_news-master\fake_true_news-master\assets\datasets/True.csv")
 
 # Add class labels
 data_fake["class"] = 0
